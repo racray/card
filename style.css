@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    background-color: beige;
+
+}
+
+.container{
+    display:flex;
+    height: 150rem;
+    width:30rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.img-responsive{
+    height:20rem;
+    width:30em;
+    object-fit: cover;
+
+}
+
+.text-container{
+    background-color: white;
+}
+
+.container>div{
+    border-radius: 1.05rem;
+    overflow: hidden;
+}
+.profile-container{
+    display: flex;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+
+}
